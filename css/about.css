@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(197, 179, 233);
+    text-align: left;
+}
+
+#Home-list{ 
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+
+li{
+    float: left;
+    padding: 5px;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: darksalmon;
+}
+
+h2{
+    color: darkorchid;
+    margin-top: 5%;
+    padding-left: 10px;
+}
+
+img{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+div{
+    padding: 10px 0 0 2px;
+}
+
+h3{
+    margin: 10px;  
+}

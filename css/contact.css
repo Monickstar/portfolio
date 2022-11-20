@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(197, 179, 233);
+    color: black;
+    text-align: left;
+}
+
+#Home-list{ 
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+
+.li{
+    float: left;  
+    padding: 5px; 
+    margin: 8px;
+    list-style: none;
+}
+
+.li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    padding: 10px;
+}
+
+li a:hover{
+    color: darksalmon;
+}
+
+img{
+    border-radius: 80%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Intro p{
+    padding: 5px;
+    margin: 30px;
+}
+
+.intro{
+    color: purple;
+}
+
+form{
+    background-color: rgba(8, 9, 10, 0.397);
+    width: 40%;
+    margin: 20px;
+    padding: 20px; 
+    text-align: left;
+}
+
+label{
+    display: block;
+    padding: 10px 0px 4px 0px;
+}
+
+#email, #name, #age{
+    width: 100%;
+    padding: 5px 0px;
+}
+
+#your-message{
+    padding: 1px;
+    width: 100%;
+    margin-top: 10px;
+    font: 1.4em/1.6em cursive;
+}
+
+button{
+    background-color: rgb(148, 156, 135);
+   width: 50%;
+   padding: 15px 25px;
+   font-size: medium;
+   text-align: center;
+   margin-top: 20px;
+   display: inline-block; 
+}
+
+button:hover{
+    background-color: rgb(185, 172, 156);
+}
+
+.btn{
+    text-align: center;
+}
